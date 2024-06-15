@@ -1,0 +1,11 @@
+Variable -> Variables are containers of data or named memory location is called variable.
+
+keyword -> var, let and const.
+
+1. var -> Varible can be re-declered and updated. A global scope variable.
+
+2. let -> Varible cannot be re-declered but can be updated. A block scope variable.
+
+3. const -> Varible cannot be re-declered or updated. A block scope variable.
+
+
