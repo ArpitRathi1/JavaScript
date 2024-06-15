@@ -8,4 +8,13 @@ keyword -> var, let and const.
 
 3. const -> Varible cannot be re-declered or updated. A block scope variable.
 
+[Note - Before 2015 we have only var keyword but in ES6 we have let and const also to decleare our variable.]
+[Note - always use let or const to decleare a variable]
+[Note - we can decleare a variable with let ketword without giving a value to initialse it but can't decleare a variable with const keyword without initialsing it]
 
+Variable Rules -> 1. variable names are case sensitive, "a" and "A" are different.
+				  2. only letters, digits, underscore(_) and $ is allowed.(not even spaces)
+				  3. only a letter,underscore or $ should be the 1st character.
+				  4. reserved keywords can't be variable name.
+
+Varible conventions -> 1. use camelCase. (Example - fullName, lastName, firstName)
