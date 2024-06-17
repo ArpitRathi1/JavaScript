@@ -2,4 +2,11 @@ Data types in JS -> In JavaScript, variables hold values, and each value possess
 
 [Note : To find datatype of ant variable use typeof function]
 
+1. Primitive data types: The predefined data types provided by JavaScript language are known as primitive data types. Primitive data types are also known as in-built data types. There are 7 type of primitive datatypes
+
+Below is a list of Primitive Data Types with proper descriptions and examples:
+
+A. Numbers -> Number data type in javaScript can be used to hold decimal values as well as values without decimals.
+example -> let x = 250;
+    	   let y = 40.5;
 
