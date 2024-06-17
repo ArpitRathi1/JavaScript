@@ -1,0 +1,5 @@
+Data types in JS -> In JavaScript, variables hold values, and each value possesses a data type that indicates the nature of the stored information. Broadly, JavaScript classifies data types into two categories: Primitive data types and Non-primitive data types.
+
+[Note : To find datatype of ant variable use typeof function]
+
+
