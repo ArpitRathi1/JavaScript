@@ -14,3 +14,15 @@ B. String -> The string data type in JavaScript represents a sequence of charact
 example -> let str = 'Hello All';
 		   let str1 = "Welcome to my new house";
 		   "abc" + 123  // output : "abc123"
+		   
+C. Undefined -> This means that a variable has been declared but has not been assigned a value, or it has been explicitly set to the value `undefined`.
+example -> let x;
+		   console.log(x); // Outputs: undefined
+
+D. Boolean -> The boolean data type can accept only two values i.e. true and false.
+
+E. Null -> This data type can hold only one possible value that is null.
+example -> let x = null;
+
+F. BigInt -> BigInt data type can represent numbers greater than 253-1 which helps to perform operations on large numbers. The number is specified by writing ‘n’ at the end of the value.
+example -> let bigNum = 123422222222222222222222222222222222222n
