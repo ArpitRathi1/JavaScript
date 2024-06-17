@@ -10,3 +10,7 @@ A. Numbers -> Number data type in javaScript can be used to hold decimal values 
 example -> let x = 250;
     	   let y = 40.5;
 
+B. String -> The string data type in JavaScript represents a sequence of characters that are surrounded by single or double quotes.
+example -> let str = 'Hello All';
+		   let str1 = "Welcome to my new house";
+		   "abc" + 123  // output : "abc123"
