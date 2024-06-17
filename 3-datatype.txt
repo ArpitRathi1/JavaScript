@@ -26,3 +26,15 @@ example -> let x = null;
 
 F. BigInt -> BigInt data type can represent numbers greater than 253-1 which helps to perform operations on large numbers. The number is specified by writing ‘n’ at the end of the value.
 example -> let bigNum = 123422222222222222222222222222222222222n
+
+G. Symbol -> Symbol data type is used to create objects which will always be unique. these objects can be created using Symbol constructor.
+example -> let sym = Symbol("Hello")
+		   console.log(typeof(sym));
+		   console.log(sym);
+
+2. Non-primitive data types -> The data types that are derived from primitive data types of the JavaScript language are known as non-primitive data types. It is also known as derived data types or reference data types.
+like -> A. Objects
+		B. Arrays
+
+A. Object -> collection of values.
+			 In obj, data stored in key-value pairs.
