@@ -23,3 +23,7 @@ console.log(student.name)
 // To update a value.
 student["marks"] = 89;
 console.log(student.marks)
+
+// We can't update the value of a variable created by const keyword
+// But we can update the value of a key inside the object which is created by const keyword
+// Because if we update a key inside the obj it does not change the memory location of that object
