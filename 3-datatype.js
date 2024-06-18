@@ -10,3 +10,7 @@ const student = {
 	marks : 90,
 	isPass : true
 }
+
+console.log(student)               // output : { name: 'Arpit', age: 27, marks: 90, isPass: true }
+console.log(typeof(student))       // output : object
+console.log(typeof(student.age))   // output : number
