@@ -6,4 +6,11 @@ Comments in js -> Part of code which is not executed
 
 Operators -> used to perfrom some opearations on data. Javascript operators are used to perform different types of mathematical and logical computations.
 
+1. Arithmetic operators -> +(addtion), -(substraction), *(multiplication), /(divisiom), **(exponentiation), %(modulus), ++(increment by 1), --(decrement by 1)
 
+++x -> pre increment operator -> firstly increment the value secondly use the value
+x++ -> post increment operator -> firstly use the value secondly increment the value
+--x -> pre decrement operator -> firstly decrement the value secondly use the value
+x-- -> post decrement operator -> firstly use the value secondly decrement the value
+
+[Note : Increment and Decrement operator is unary operator which means they only require only one operand to perform operation]
