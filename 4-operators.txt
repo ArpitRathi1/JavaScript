@@ -14,3 +14,14 @@ x++ -> post increment operator -> firstly use the value secondly increment the v
 x-- -> post decrement operator -> firstly use the value secondly decrement the value
 
 [Note : Increment and Decrement operator is unary operator which means they only require only one operand to perform operation]
+
+2. Assignment operators -> Assignment operators assign values to JavaScript variables.
+
+Operator	Example   	Same As
+=	        x = y	     x = y
++=	        x += y     x = x + y
+-=	        x -= y	   x = x - y
+*=	        x *= y	   x = x * y
+/=	        x /= y	   x = x / y
+%=	        x %= y	   x = x % y
+**=	        x **= y	   x = x ** y
