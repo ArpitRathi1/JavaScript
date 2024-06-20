@@ -1,0 +1,9 @@
+Comments in js -> Part of code which is not executed
+				  // This is single line comment.
+				  
+				  /* This is multi-line
+				  comment 
+
+Operators -> used to perfrom some opearations on data. Javascript operators are used to perform different types of mathematical and logical computations.
+
+
