@@ -20,3 +20,13 @@ let num2 = "5";
 console.log(num1 == num2)   // output : true
 // Strict equality
 console.log(num1 === num2)  // output : false 
+
+// Ternary operator
+let age = 19;
+let status = age >= 18 ? "I can vote" : "I can't vote";
+console.log(status)        // output : "I can vote"
+
+// Logical operator
+
+let name = "Arpit";
+let age1 = 25;
