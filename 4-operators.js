@@ -30,3 +30,10 @@ console.log(status)        // output : "I can vote"
 
 let name = "Arpit";
 let age1 = 25;
+
+// and
+console.log(name==="Arpit" && age1>=25)     // output : true because both condition is true
+console.log(name==="Ankit" && age1>=27)     // output : false because both condition are not true
+// or
+console.log(name==="Ankit" || age1>=25)     // output : true because one condition is true
+console.log(name==="Ankit" || age1>=27)     // output : false because both conditions are false
