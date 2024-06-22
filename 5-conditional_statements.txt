@@ -15,3 +15,5 @@ if (condition1) {
 } else {
   //  block of code to be executed if the condition1 is false and condition2 is false
 }
+
+# Switch Cases -> Use the switch statement to select one of many code blocks to be executed.
