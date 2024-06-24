@@ -8,3 +8,5 @@ if (age>=18){
 }
 
 // output : You can apply for a driving license
+
+let salary = 50000;
