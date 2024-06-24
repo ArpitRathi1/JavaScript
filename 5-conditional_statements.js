@@ -10,3 +10,13 @@ if (age>=18){
 // output : You can apply for a driving license
 
 let salary = 50000;
+switch (salary){
+case 40000:
+	console.log("poor")
+	break
+case 50000:
+	console.log("Rich")
+	break
+default:
+	console.log("Nothing")
+}
