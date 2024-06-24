@@ -6,3 +6,5 @@ if (age>=18){
 }else{
 	console.log("You can't apply for a driving license")
 }
+
+// output : You can apply for a driving license
