@@ -1,0 +1,12 @@
+JavaScript Loops -> Loops are handy, if you want to run the same code over and over again, each time with a different value. 
+					Loops are used to execute a code again and again.
+
+JavaScript supports different kinds of loops:
+
+1. for - loops through a block of code a number of times
+2. while - loops through a block of code while a specified condition is true
+3. do/while - also loops through a block of code while a specified condition is true
+4. for/in - loops through the properties of an object
+5. for/of - loops through the values of an iterable object
+
+
