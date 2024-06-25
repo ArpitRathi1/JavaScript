@@ -18,3 +18,9 @@ for (initialization; testing condition; increment/decrement) {
 # Infinite Loop -> A loop that never ends.
 				   [Note : Never do it in a program]
 				   A loop whose stopping condition never returns false
+				   
+2. JavaScript while Loop->
+Syntax-
+while (boolean condition) {
+    loop statements...
+}
