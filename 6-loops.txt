@@ -30,3 +30,9 @@ Syntax-
 do {
     Statements...
 }while (condition);
+
+4. JavaScript for-of Loop -> JS for-of loop is used to iterate the iterable objects for example – array, string. It directly iterate the value of the given iterable object and has more concise syntax than for loop.
+Syntax -
+for(let variable_name of  object_name) {
+    // Statement
+}
