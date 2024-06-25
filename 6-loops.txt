@@ -24,3 +24,9 @@ Syntax-
 while (boolean condition) {
     loop statements...
 }
+
+3. JavaScript do-while Loop -> The JS do-while loop is similar to the while loop with the only difference is that it checks for the condition after executing the statements, and therefore is an example of an Exit Control Loop. It executes loop content at least once even the condition is false.
+Syntax-
+do {
+    Statements...
+}while (condition);
