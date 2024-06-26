@@ -34,3 +34,19 @@ let str = "Arpit";
 for (let l of str){
 	console.log("l =",l)     // don't have to give any initialisation, stopping condition or updation.
 }
+
+// size of a string
+let str1 = "JavaScript";
+let size = 0;
+for (let a of str1){
+	size++
+}
+console.log("size of str1 =",size)       // output : 10
+
+// for-in loop
+let student = {
+	name : "Rahul",
+	age : 20,
+	cgpa : 8.4,
+	isPass : true
+}
