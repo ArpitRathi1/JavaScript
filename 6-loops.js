@@ -20,3 +20,17 @@ while(j <= 5){               // condition
 	console.log("j =",j)     // task
 	j++                      // updation
 }
+
+// do while loop
+
+let k = 20;                  // initialisation
+do{
+	console.log("k =",k)     // task
+	k++                      // updation
+}while(k<=10);               // condition(always remember to add (;) at the end of the condition)
+
+// for-of loop
+let str = "Arpit";
+for (let l of str){
+	console.log("l =",l)     // don't have to give any initialisation, stopping condition or updation.
+}
