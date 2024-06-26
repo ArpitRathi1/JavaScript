@@ -50,3 +50,7 @@ let student = {
 	cgpa : 8.4,
 	isPass : true
 }
+
+for(let key in student){
+	console.log(key,":",student[key])     // In for-in loop, iterator contains the value of keys of object
+}
