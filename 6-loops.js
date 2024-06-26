@@ -12,3 +12,11 @@ for (let i = 0; i <= n; i++){
 	sum = sum + i;
 }
 console.log(sum)         // output : 15
+
+// while loop
+
+let j = 1;                   // initialisation
+while(j <= 5){               // condition
+	console.log("j =",j)     // task
+	j++                      // updation
+}
