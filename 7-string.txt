@@ -19,3 +19,12 @@ Strings created with single or double quotes works the same.
 				      brown fox
 				      jumps over
 				      the lazy dog`;
+
+# Escape Characters -> Code	Result
+						\b	Backspace
+						\f	Form Feed
+						\n	New Line
+						\r	Carriage Return
+						\t	Horizontal Tabulator
+						\v	Vertical Tabulator
+						[Note : Lenght of escape characters is not 2, it is 1]
