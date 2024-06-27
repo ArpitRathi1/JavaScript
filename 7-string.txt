@@ -8,4 +8,14 @@ let carName1 = "Volvo XC60";  // Double quotes
 let carName2 = 'Volvo XC60';  // Single quotes
 Strings created with single or double quotes works the same.
 
-
+# Template Strings -> Templates were introduced with ES6 (JavaScript 2016).
+					  Templates are strings enclosed in backticks (`This is a template string`).
+					  Templates allow single and double quotes inside a string:
+					  let text = `He's often called "Johnny"`;
+					  [Note : Templates are not supported in Internet Explorer.]
+					  Templates allow multiline strings:
+				  	  let text =
+				      `The quick
+				      brown fox
+				      jumps over
+				      the lazy dog`;
