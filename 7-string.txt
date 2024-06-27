@@ -28,3 +28,15 @@ Strings created with single or double quotes works the same.
 						\t	Horizontal Tabulator
 						\v	Vertical Tabulator
 						[Note : Lenght of escape characters is not 2, it is 1]
+
+# String Length - To find the length of a string, use the built-in length property:
+				  let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+				  let length = text.length;
+				  Templates allow multiline strings:
+				  let text =
+				  `The quick
+				  brown fox
+				  jumps over
+				  the lazy dog`;
+
+# String indices - To find character at a particular index 
