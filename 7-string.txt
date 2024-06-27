@@ -51,3 +51,11 @@ Strings created with single or double quotes works the same.
 			   syntax - str.slice(start, end) or str1 + str2
 			   start is inclusive
 			   end is exclusive
+# 5. concat() - joins two or more strings
+         		let text1 = "Hello";
+         		let text2 = "World";
+         		let text3 = text1.concat(" ", text2);
+# 6. replace() - method replaces a specified value with another value in a string:
+				 syntax : str.replace(searchValue, newValue);
+				 [Note : replacement is done only one time]
+				 To replce all searchValues we have replaceAll() method
