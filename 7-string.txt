@@ -40,3 +40,14 @@ Strings created with single or double quotes works the same.
 				  the lazy dog`;
 
 # String indices - To find character at a particular index 
+
+# String methods -> There are built-in functions to manipulate string.
+					All methods of string does not change the original string, thay always return a new string
+
+# 1. toUpperCase() - To convert all characters to upper-case
+# 2. toLowerCase() - To convert all characters to lower-case
+# 3. trim() - To remove all whitespaces
+# 4. slice() - extracts a part of a string and returns the extracted part in a new string.
+			   syntax - str.slice(start, end) or str1 + str2
+			   start is inclusive
+			   end is exclusive
