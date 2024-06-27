@@ -1,0 +1,11 @@
+String in JS -> are sequence of characters to represent text.
+				Stirng are immutable.
+Example - 
+let text = "John Doe";
+
+You can use single or double quotes:
+let carName1 = "Volvo XC60";  // Double quotes
+let carName2 = 'Volvo XC60';  // Single quotes
+Strings created with single or double quotes works the same.
+
+
