@@ -30,3 +30,12 @@ console.log(name1)           // output : ARPIT RATHI
 // toLowerCase()
 let sen_1 = "ANKIT"
 console.log(sen_1.toLowerCase())  // output : ankit
+
+// trim()
+let sen_2 = "     Ashwin    "
+console.log(sen_2.trim())     // output : Ashwin
+
+// slice()
+let sen_3 = "Arpit Rathi"
+let sen_4 = sen_3.slice(0,5)
+console.log(sen_4)           // output : Arpit
