@@ -39,3 +39,14 @@ console.log(sen_2.trim())     // output : Ashwin
 let sen_3 = "Arpit Rathi"
 let sen_4 = sen_3.slice(0,5)
 console.log(sen_4)           // output : Arpit
+
+// concet() 
+let text1 = "Hello";
+let text2 = "World";
+let text3 = text1.concat(" ", text2);
+console.log(text3)            // output : Hello world
+
+// replace()
+let sen_5 = "Hello World";
+sen_6 = sen_5.replace("World","India")
+console.log(sen_6)        // output : Hello India
