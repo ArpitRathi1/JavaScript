@@ -18,3 +18,15 @@ console.log(`Prince of ${obj.item} is ${obj.price} rupees`)
 
 let len = name.length        // To find length of the string
 console.log(len)             // output : 11
+
+// string indices
+
+console.log(name[4])         // output : t
+
+// toUpperCase()
+let name1 = name.toUpperCase() 
+console.log(name1)           // output : ARPIT RATHI
+
+// toLowerCase()
+let sen_1 = "ANKIT"
+console.log(sen_1.toLowerCase())  // output : ankit
