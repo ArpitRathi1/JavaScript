@@ -50,3 +50,15 @@ console.log(text3)            // output : Hello world
 let sen_5 = "Hello World";
 sen_6 = sen_5.replace("World","India")
 console.log(sen_6)        // output : Hello India
+
+// replaceAll()
+let sen_7 = "lolololo";
+console.log(sen_7.replaceAll("lo","p"))     // output : pppp
+
+// charAt()
+console.log(sen_7.charAt(1))                // output : o
+
+// split()
+let sen_8 = "My name is arpit Rathi"
+let arr_1 = sen_8.split(" ")          // This will split the string by space and create an array of it
+console.log(arr_1)                    // output : ['My', 'name', 'is', 'arpit', 'Rathi']
