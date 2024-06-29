@@ -57,3 +57,19 @@ Linear ways to store information.
 # Joining array : join() -> To convert an array into string
 				  Join does not change the original array, it return a new string
 				  syntax : arr.join("")
+
+# Sorting an array : sort() -> To sort an array in ascending order
+					 syntax : arr.sort();
+
+# Combining arrays : To combine two or more array
+					 concat() -> To combine two or more arrays
+					             does not change in original array, always return a new array
+					 syntax : firstArray.concat(secondArray)
+
+					 spread operator -> 
+					 does not change in original array, always return a new array
+					 syntax : [...firstArray, ...secondArray] 
+
+# slicing an array : slice() -> return a piece of an array
+								does not change in original array, always return a new array
+								syntax : arr.slice(startIndex, endIndex)
