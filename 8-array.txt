@@ -40,3 +40,20 @@ Linear ways to store information.
 
 					 splice() -> To remove element at specific index
 					 syntax : arr.splice(index, no. of elements you want to remove)
+
+# Searching : indexOf() -> To find index of a perticular element
+			  syntax : arr.indexOf(element, from which index you want to start searching)
+			  [Note : it will return -1 if element is not present in array]
+
+			  includes() -> return true if element present in array else false
+			  syntax : arr.includes(element)
+
+# Emptying an array : There are two ways to empty an array.
+					  1. by length
+					  syntax : arr.length = 0
+					  2. by splice 
+					  syntax : arr.splice(0,arr.length)
+
+# Joining array : join() -> To convert an array into string
+				  Join does not change the original array, it return a new string
+				  syntax : arr.join("")
