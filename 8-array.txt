@@ -12,3 +12,13 @@ Linear ways to store information.
 
 # Length property : To find lenght of an array.
             		Syntax : arr.length
+
+# Accessing Array Elements : You access an array element by referring to the index number
+							 const cars = ["Saab", "Volvo", "BMW"];
+                         	 let car = cars[0];    // output : saab
+                         	 [Note: Array indexes start with 0.]
+                         	 [Note: if we try to access a index which is not present in the array it will give undefined as output]
+
+# Looping over an array : using forloop
+						  using for-of loop
+						  using forEach loop
