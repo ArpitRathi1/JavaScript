@@ -22,3 +22,21 @@ Linear ways to store information.
 # Looping over an array : using forloop
 						  using for-of loop
 						  using forEach loop
+
+# Adding new element : push() -> To add element at end
+					   syntax : arr.push(element)
+
+					   unshift -> To add element at start
+					   syntax : arr.unshift(element)
+
+					   splice() -> To add element at a specific index
+					   syntax : arr.splice(index, delete-count, element)
+
+# Removing element : pop() -> To remove last element
+					 syntax : arr.pop()
+
+					 shift() -> To remove first element
+					 syntax : arr.shift()
+
+					 splice() -> To remove element at specific index
+					 syntax : arr.splice(index, no. of elements you want to remove)
