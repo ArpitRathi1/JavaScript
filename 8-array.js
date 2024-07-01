@@ -10,3 +10,7 @@ console.log(typeof info)    // output : object
 // Accessing Array Elements
 console.log(info[0])        // output : Arpit
 console.log(info[4])        // output : undefined
+
+// update a value
+info[1] = 22 
+console.log(info)          // output : ['Arpit', 22, 10, 'Ankit']
