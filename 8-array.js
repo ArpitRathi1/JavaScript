@@ -14,3 +14,8 @@ console.log(info[4])        // output : undefined
 // update a value
 info[1] = 22 
 console.log(info)          // output : ['Arpit', 22, 10, 'Ankit']
+
+// Using for-loop
+for (let i = 0; i<=(info.length-1); i++){
+	console.log(info[i])                       // output : Arpit 22 10 Ankit
+}
