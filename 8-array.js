@@ -20,3 +20,7 @@ console.log(info)          // output : ['Arpit', 22, 10, 'Ankit']
 for (let i = 0; i<=(info.length-1); i++){
 	console.log(info[i])                       // output : Arpit 22 10 Ankit
 }
+// Using for-of loop
+for (let val of info){
+	console.log(val)                           // output : Arpit 22 10 Ankit
+}
