@@ -28,3 +28,13 @@ for (let val of info){
 info.forEach((element)=>{
 	console.log(element)                       // output : Arpit 22 10 Ankit
 })
+
+// average marks
+let marks = [70,80,90];
+let sum = 0;
+let avg;
+for (let mark of marks){
+	sum += mark
+}
+avg = sum / marks.length
+console.log(`Average marks of all students is ${avg}`)          // output : 80
