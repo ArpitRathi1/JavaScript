@@ -24,3 +24,7 @@ for (let i = 0; i<=(info.length-1); i++){
 for (let val of info){
 	console.log(val)                           // output : Arpit 22 10 Ankit
 }
+// Using forEach loop
+info.forEach((element)=>{
+	console.log(element)                       // output : Arpit 22 10 Ankit
+})
