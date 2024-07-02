@@ -43,3 +43,7 @@ console.log(`Average marks of all students is ${avg}`)          // output : 80
 // To add element at end
 info.push(65)
 console.log(info)               // output : [ 'Arpit', 22, 10, 'Ankit', 65 ]
+
+// To add element at start
+info.unshift("Ashwin")
+console.log(info)               // output : [ 'Ashwin', 'Arpit', 22, 10, 'Ankit', 65 ]
