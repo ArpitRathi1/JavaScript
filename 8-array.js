@@ -38,3 +38,8 @@ for (let mark of marks){
 }
 avg = sum / marks.length
 console.log(`Average marks of all students is ${avg}`)          // output : 80
+
+// Adding new element
+// To add element at end
+info.push(65)
+console.log(info)               // output : [ 'Arpit', 22, 10, 'Ankit', 65 ]
