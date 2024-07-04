@@ -67,6 +67,7 @@ console.log(arr_1)            // output : [ 4, 1, 9, 0 ]
 arr_1.splice(1,1)
 console.log(arr_1)            // output : [ 4, 9, 0 ]
 
+// Searching
 let arr_2 = ["A","B","C","D"];
 // To find index of a perticular element
 console.log(arr_2.indexOf("C"))     // output : 2
