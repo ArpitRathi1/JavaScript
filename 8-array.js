@@ -62,3 +62,7 @@ console.log(arr_1)            // output : [ 2, 4, 1, 9, 0 ]
 // To remove element at starting
 arr_1.shift()
 console.log(arr_1)            // output : [ 4, 1, 9, 0 ]
+
+// To remove element at a specific index
+arr_1.splice(1,1)
+console.log(arr_1)            // output : [ 4, 9, 0 ]
