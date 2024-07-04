@@ -51,3 +51,10 @@ console.log(info)               // output : [ 'Ashwin', 'Arpit', 22, 10, 'Ankit'
 // To add element at specific index
 info.splice(2,0,"Adi")
 console.log(info)               // output : [ 'Ashwin', 'Arpit', 'Adi', 22, 10, 'Ankit', 65 ]
+
+// Removing element
+let arr_1 =[2,4,1,9,0,6]
+// To remove last element
+let deleted = arr_1.pop()
+console.log(deleted)          // output : 6
+console.log(arr_1)            // output : [ 2, 4, 1, 9, 0 ]
