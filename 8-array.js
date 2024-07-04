@@ -58,3 +58,7 @@ let arr_1 =[2,4,1,9,0,6]
 let deleted = arr_1.pop()
 console.log(deleted)          // output : 6
 console.log(arr_1)            // output : [ 2, 4, 1, 9, 0 ]
+
+// To remove element at starting
+arr_1.shift()
+console.log(arr_1)            // output : [ 4, 1, 9, 0 ]
