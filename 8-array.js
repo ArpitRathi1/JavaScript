@@ -47,3 +47,7 @@ console.log(info)               // output : [ 'Arpit', 22, 10, 'Ankit', 65 ]
 // To add element at start
 info.unshift("Ashwin")
 console.log(info)               // output : [ 'Ashwin', 'Arpit', 22, 10, 'Ankit', 65 ]
+
+// To add element at specific index
+info.splice(2,0,"Adi")
+console.log(info)               // output : [ 'Ashwin', 'Arpit', 'Adi', 22, 10, 'Ankit', 65 ]
