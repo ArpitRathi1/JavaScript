@@ -71,3 +71,6 @@ let arr_2 = ["A","B","C","D"];
 // To find index of a perticular element
 console.log(arr_2.indexOf("C"))     // output : 2
 console.log(arr_2.indexOf("E"))     // output : -1 (It will return -1 if element not found in array)
+
+// To find element is present in array or not
+console.log(arr_2.includes("A"))    // output : true
