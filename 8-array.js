@@ -66,3 +66,8 @@ console.log(arr_1)            // output : [ 4, 1, 9, 0 ]
 // To remove element at a specific index
 arr_1.splice(1,1)
 console.log(arr_1)            // output : [ 4, 9, 0 ]
+
+let arr_2 = ["A","B","C","D"];
+// To find index of a perticular element
+console.log(arr_2.indexOf("C"))     // output : 2
+console.log(arr_2.indexOf("E"))     // output : -1 (It will return -1 if element not found in array)
