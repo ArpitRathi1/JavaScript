@@ -94,3 +94,9 @@ console.log(str)                // output : "IamArpitRathi"
 let arr_6 = [9,3,6,2,1,7];
 arr_6.sort()
 console.log(arr_6)             // output : [ 1, 2, 3, 6, 7, 9 ]
+
+// Combining array
+let first = [1,2,3];
+let second = [4,5,6];
+let combine = first.concat(second)     // concat does not change original arrays, it always returns a new array   
+console.log(combine)                   // output : [ 1, 2, 3, 4, 5, 6 ]
