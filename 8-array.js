@@ -75,3 +75,11 @@ console.log(arr_2.indexOf("E"))     // output : -1 (It will return -1 if element
 
 // To find element is present in array or not
 console.log(arr_2.includes("A"))    // output : true
+
+// Emptying an array
+let arr_3 = [1,2,3,4,5];
+arr_3.length = 0;
+console.log(arr_3)               // output : []
+let arr_4 = [1,2,4,5,2];
+arr_4.splice(0,arr_4.length)
+console.log(arr_4)               // output : []
