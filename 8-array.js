@@ -83,3 +83,9 @@ console.log(arr_3)               // output : []
 let arr_4 = [1,2,4,5,2];
 arr_4.splice(0,arr_4.length)
 console.log(arr_4)               // output : []
+
+// Joining an array
+let arr_5 = ["I","am","Arpit","Rathi"];
+let str = arr_5.join("")
+console.log(arr_5)              // output : ['I', 'am', 'Arpit', 'Rathi'] // Join does not change original array it returns a new string
+console.log(str)                // output : "IamArpitRathi"
