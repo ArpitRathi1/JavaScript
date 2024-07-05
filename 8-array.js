@@ -100,3 +100,9 @@ let first = [1,2,3];
 let second = [4,5,6];
 let combine = first.concat(second)     // concat does not change original arrays, it always returns a new array   
 console.log(combine)                   // output : [ 1, 2, 3, 4, 5, 6 ]
+
+// Sperad operator
+let firstArray = [10,20,30];
+let secondArray = [40,50];
+let combinedArray = [...firstArray, ...secondArray]    // spread operator does not change original arrays,it always returns a new array
+console.log(combinedArray)            // output : [ 10, 20, 30, 40, 50 ]
