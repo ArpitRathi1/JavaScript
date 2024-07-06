@@ -125,3 +125,14 @@ let arr_10 = [2,3,7,9,4,13,14,20];
 let arr_10_even = arr_10.filter((val)=>{
 	return val % 2 === 0;
 })
+
+console.log(arr_10_even)       // output : [ 2, 4, 14, 20 ]
+
+// reduce() -> add all elements of an array
+let arr_11 = [1,2,3,4,5];
+
+let arr_11_sum = arr_11.reduce((res, curr)=>{
+	return res + curr;
+})
+
+console.log(arr_11_sum)      // output : 15
