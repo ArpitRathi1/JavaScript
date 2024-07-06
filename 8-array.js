@@ -136,3 +136,10 @@ let arr_11_sum = arr_11.reduce((res, curr)=>{
 })
 
 console.log(arr_11_sum)      // output : 15
+
+// find the largest number in an array.
+let arr_11_largest = arr_11.reduce((prev, curr) =>{
+	return prev > curr ? prev : curr 
+})
+
+console.log(arr_11_largest)   // output : 5
