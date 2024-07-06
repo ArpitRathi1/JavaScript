@@ -111,3 +111,9 @@ console.log(combinedArray)            // output : [ 10, 20, 30, 40, 50 ]
 let arr_7 = [45,30,12,67,13,10];
 let arr_8 = arr_7.slice(1,4);
 console.log(arr_8)           // output : [ 30, 12, 67 ]
+
+// map() -> create a new array which stores square of all values in the given array.
+let arr_9 = [1,2,3,4,5];
+let arr_9_square = arr_9.map((val)=>{
+	return val**2                        // value used in callback function of map is used to form a new array
+})
