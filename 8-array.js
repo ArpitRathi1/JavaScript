@@ -117,3 +117,11 @@ let arr_9 = [1,2,3,4,5];
 let arr_9_square = arr_9.map((val)=>{
 	return val**2                        // value used in callback function of map is used to form a new array
 })
+
+console.log(arr_9_square)      // output : [ 1, 4, 9, 16, 25 ]
+
+// filter() -> create a new array which stores all the even number in the given array.
+let arr_10 = [2,3,7,9,4,13,14,20];
+let arr_10_even = arr_10.filter((val)=>{
+	return val % 2 === 0;
+})
