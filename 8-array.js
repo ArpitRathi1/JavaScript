@@ -106,3 +106,8 @@ let firstArray = [10,20,30];
 let secondArray = [40,50];
 let combinedArray = [...firstArray, ...secondArray]    // spread operator does not change original arrays,it always returns a new array
 console.log(combinedArray)            // output : [ 10, 20, 30, 40, 50 ]
+
+// slicing an array
+let arr_7 = [45,30,12,67,13,10];
+let arr_8 = arr_7.slice(1,4);
+console.log(arr_8)           // output : [ 30, 12, 67 ]
