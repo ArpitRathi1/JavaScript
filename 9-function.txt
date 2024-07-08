@@ -27,3 +27,20 @@ Local Variables -> Variables declared within a JavaScript function, become LOCAL
 Hoisting -> JavaScript Hoisting refers to the process whereby the interpreter appears to move the declaration of functions, variables, 				classes, or imports to the top of their scope, prior to execution of the code.
 			In JS you can call or invoke a function before or after that function is decleared.It is because of Hoisting.
 			Hoisting is the process od moving function decleartion to the top of the file automatically by JS engine.
+
+Rest operator -> If you don't know the number of arguments in a function then this arguments can be handled by rest operator.
+				 rest operator will create an array of that arguments.
+
+Default Parameters -> If a function in JavaScript is called with missing arguments, the missing values are set to undefined.
+					  Sometimes this is acceptable, but sometimes it is better to assign a default value to the parameter:
+					  
+					  syntax : function myFunction (x, y = 2) {
+ 						 		// function code
+					   			}
+
+Arrow Function -> Compact way of writing a function.
+				  Generally arrow functions are used for small tasks
+				  
+				  syntax: const functionName = (param1, param2, ..) => {
+				  					// function code
+				                    }
