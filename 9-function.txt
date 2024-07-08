@@ -44,3 +44,16 @@ Arrow Function -> Compact way of writing a function.
 				  syntax: const functionName = (param1, param2, ..) => {
 				  					// function code
 				                    }
+
+Method -> A function which is associated with an object is called method
+
+forEach Loop -> syntax : arr.forEach(callBackFunction(value, index, array))
+				forEach's callback function has 3 parameter:
+				1. value -> value at each index
+				2. idx -> index
+				3. Array it self
+			    CallBackFunction : A callback function is passed as an argument to another function.
+			    				   here, it is a function to execute for each element in the array.
+
+Higher-order Functions -> is a function that takes one or more functions as arguments, or returns a function as its result.
+						  Example - forEach, 
