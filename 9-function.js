@@ -14,3 +14,13 @@ function sum(x, y){                // x and y are sum function's local variables
 	return s                       // return will always return only one value
 }
 console.log(sum(1,2))              // output : 3
+
+// Rest operator
+function sumOfAll(...args) {
+	let sum = 0;
+	for (let arg of args){
+		sum += arg
+	}
+	return sum
+}
+console.log(sumOfAll(1,2,3,4,5))    // output : 15
