@@ -24,3 +24,21 @@ function sumOfAll(...args) {
 	return sum
 }
 console.log(sumOfAll(1,2,3,4,5))    // output : 15
+
+// Arrow funnction 
+let mul = (a, b) => {
+	return a * b
+}
+console.log(mul(3, 4))             // output : 12
+
+// number of vowel in a string.
+function numOfVowel(str){
+	let vowel = ["a","e","i","o","u"];
+	let countOfVowel = 0;
+	for (let i of str){
+		if (vowel.includes(i.toLowerCase())){
+			countOfVowel++;
+		}
+	}
+	return countOfVowel
+}
