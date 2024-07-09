@@ -42,3 +42,11 @@ function numOfVowel(str){
 	}
 	return countOfVowel
 }
+
+console.log(numOfVowel("Arpit"))    // output : 2 
+
+// forEach
+let arr = [3,2,5,8,4];
+arr.forEach((ele, idx, arr)=>{
+	console.log(idx,"-",ele,arr)               // output : 3 2 5 8 4 
+})
