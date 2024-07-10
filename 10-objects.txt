@@ -14,3 +14,8 @@ Object Constructor Functions -> Sometimes we need to create many objects of the 
 											  this.age = age;
 											  this.eyeColor = eye;
 											}
+								[Note : In the constructor function, this has no value.
+								The value of this will become the new object when a new object is created.]	
+
+								const myFather = new Person("John", "Doe", 50, "blue");
+								[new - new keyword is used to create a new object]
