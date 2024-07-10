@@ -2,3 +2,5 @@ Object -> Object has some properties and methods.
 		  Object is collection of key value pairs.
 		  Functions inside object is called methods.
 		  Object literal -> {}
+
+this -> In an object method, this refers to the object.
