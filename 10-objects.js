@@ -7,3 +7,12 @@ const student = {
 	},
 }
 
+// To get value of a property
+console.log(student.fullName)       // output : Arpit
+
+// To add property
+student.grade = "A";
+console.log(student.grade)          // output : A
+
+// To invoke a method
+student.printMarks()                // output : Marks : 93
