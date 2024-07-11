@@ -31,3 +31,15 @@ for (let key in src_1){
 	dest_1[key] = src_1[key]
 }
 console.log(dest_1)               // output : { name: 'Tommy' }
+
+// 2. Assign
+let src_2 = {
+	marks : 100
+}
+let dest_2 = Object.assign({},src_2)
+console.log(dest_2)               // output : { marks: 100 }
+
+// 3. spread
+let src_3 = {
+	fullName : "Arpit Rathi"
+}
