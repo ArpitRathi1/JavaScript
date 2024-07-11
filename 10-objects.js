@@ -43,3 +43,23 @@ console.log(dest_2)               // output : { marks: 100 }
 let src_3 = {
 	fullName : "Arpit Rathi"
 }
+let dest_3 = {...src_3}
+console.log(dest_3)              // output : { fullName: 'Arpit Rathi' }
+
+// Constructor function.
+function Rectangle (len, bre){
+	this.length = len,
+	this.width = bre
+	this.area = function(){
+		return this.length * this.width
+	}
+}
+
+let rectangle_1 = new Rectangle(3,4);
+console.log(rectangle_1.length)        // output : 3
+console.log(rectangle_1.width)         // output : 4
+console.log(rectangle_1.area())        // output : 12
+let rectangle_2 = new Rectangle(1);
+console.log(rectangle_2.length)        // output : 1
+console.log(rectangle_2.width)         // output : undefined
+console.log(rectangle_2.area())        // output : NaN
