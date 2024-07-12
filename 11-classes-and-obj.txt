@@ -15,13 +15,14 @@ Classes in Js -> Class is a program-code template or blueprint to create objects
 				 Use the keyword class to create a class.
 				 Always give class name with Pascal notation : First latter capital
 				 Always add a method named constructor():
-
+				 
 				 Class Syntax : class ClassName {
 								  constructor() { ... }
 								  method_1() { ... }
   								  method_2() { ... }
  								  method_3() { ... }
 								}
+
 				 When you have a class, you can use the class to create objects:
 				 syntax : let myObj = new ClassName()
 
@@ -32,3 +33,14 @@ Classes in Js -> Class is a program-code template or blueprint to create objects
 				 					   2. It is executed automatically when a new object is created
 				 					   3. It is used to initialize object properties
 				 					   [Note : If you do not define a constructor method, JavaScript will add an empty constructor method.]
+				 					   
+Inheritance in JS -> Inheritance is passing down properties and method from parent class to child class.
+					 syntax: class Parent{
+
+					 }
+					 class Child extends Parent{
+
+					 }
+					 [Note : If child and parent class have same method, child's method will be used.(method overwriting)]
+
+Super keyword -> The super keyword is used to call the constructor of its parent class to access the parent's properties and method
