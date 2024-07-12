@@ -7,3 +7,11 @@ Prototype in Js -> A JS object is an entity having state and behavior (propertie
 				   
 				   [Note - If object and prototype have same method, object's method will be used.]
 
+Classes in Js -> Class is a program-code template or blueprint to create objects.
+				 ECMAScript 2015, also known as ES6, introduced JavaScript Classes.
+				 A JavaScript class is not an object.
+				 It is a template for JavaScript objects.
+				 JavaScript Classes are templates for JavaScript Objects.
+				 Use the keyword class to create a class.
+				 Always give class name with Pascal notation : First latter capital
+				 Always add a method named constructor():
