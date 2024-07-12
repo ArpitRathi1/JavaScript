@@ -22,3 +22,13 @@ Classes in Js -> Class is a program-code template or blueprint to create objects
   								  method_2() { ... }
  								  method_3() { ... }
 								}
+				 When you have a class, you can use the class to create objects:
+				 syntax : let myObj = new ClassName()
+
+				 constructor method -> The constructor method is called automatically when a new object is created.
+				 					   
+				 					   The constructor method is a special method:
+				 					   1. It has to have the exact name "constructor"
+				 					   2. It is executed automatically when a new object is created
+				 					   3. It is used to initialize object properties
+				 					   [Note : If you do not define a constructor method, JavaScript will add an empty constructor method.]
