@@ -15,3 +15,10 @@ Classes in Js -> Class is a program-code template or blueprint to create objects
 				 Use the keyword class to create a class.
 				 Always give class name with Pascal notation : First latter capital
 				 Always add a method named constructor():
+
+				 Class Syntax : class ClassName {
+								  constructor() { ... }
+								  method_1() { ... }
+  								  method_2() { ... }
+ 								  method_3() { ... }
+								}
