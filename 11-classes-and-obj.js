@@ -71,3 +71,18 @@ class Person{
 		console.log("Eat")
 	}
 }
+
+class Engineer extends Person{
+	constructor(name,branch){
+		super(name);            // To invoke parent class constructor, if don't than it will give ReferenceError.
+		this.branch = branch 
+	}
+	work(){
+		super.eat()
+		console.log("Solve Problems")
+	}
+}
+
+let enggObj = new Engineer("Ashwin","Chemical") 
+console.log(enggObj)            // output : Engineer {  species: 'Home sapians',  name: 'Ashwin', branch: 'Chemical' }
+console.log(enggObj.work())     // output : Eat Solve Problems
