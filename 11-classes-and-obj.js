@@ -22,6 +22,7 @@ console.log(karan.calcTax())       // output : tax is 10%
 arjun.__proto__ = employee 
 arjun.calcTax()                    // output : tax is 20% 
 								   // [Note - If object and prototype have same method, object's method will be used.]
+
 // Creation of car.
 
 class Car {
