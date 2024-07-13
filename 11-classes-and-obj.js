@@ -35,3 +35,26 @@ class Car {
 		console.log("Stop")
 	}
 }
+
+// Creation of obj using class Car.
+
+let swift = new Car("Swift");
+console.log(swift.brand)		  // output : Swift
+swift.start()                     // output : Start
+
+let breaza = new Car();
+console.log(breaza.brand)         // output : undefined
+breaza.stop()                     // output : Stop
+
+// Inheritance
+class Parent {
+	hello(){
+		console.log("Hello")
+	}
+}
+
+class Child extends Parent {
+	bye(){
+		console.log("Bye")
+	}	
+}
