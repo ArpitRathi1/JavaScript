@@ -58,3 +58,16 @@ class Child extends Parent {
 		console.log("Bye")
 	}	
 }
+
+let chlid_1 = new Child();      // Now we can use methods of parent class in chlid class.
+chlid_1.hello()                 // output : Hello
+
+class Person{
+	constructor(name){
+		this.species = "Home sapians"
+		this.name = name
+	}
+	eat(){
+		console.log("Eat")
+	}
+}
