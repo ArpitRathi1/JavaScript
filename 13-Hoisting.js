@@ -15,3 +15,11 @@ var x = 2;                 // Variable should be created var keyword
 function printHello(){
 	console.log("Hello")
 }
+
+// output : undefined
+//          Hello
+
+
+// var printBye = () => {         // If a function is created in this way than it will be treated as a variable
+// 	console.log("printBye")    
+// }
