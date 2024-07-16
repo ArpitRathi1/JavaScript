@@ -6,3 +6,12 @@
 // Using a let variable before it is declared will result in a ReferenceError.
 // JavaScript only hoists declarations, not initializations.
 
+console.log(x)
+printHello()
+// printBye()    // Error : printBye is not a function
+
+var x = 2;                 // Variable should be created var keyword
+
+function printHello(){
+	console.log("Hello")
+}
