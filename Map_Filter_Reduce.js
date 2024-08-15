@@ -37,6 +37,7 @@ const users = [
     {firstName : "Ronouk", lastName : "Joshi", age : 27},
     {firstName : "Sumit", lastName : "Barole", age : 28},
 ]
+
 // To find list of full name of all the users
 
 let fullName = users.map((user) => user.firstName + " " + user.lastName)
