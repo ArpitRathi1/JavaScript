@@ -54,3 +54,8 @@ let age = users.reduce((acc, curr) => {
     return acc
 },{})
 console.log(age)         // output - { '27': 2, '28': 1, '35': 1 }
+
+// find firstName of all the people whose age is less then 30 in users list.
+
+let lessThen30 = users.filter((user) => user.age < 30 ).map((user) => user.firstName)
+console.log(lessThen30)       // output - [ 'Ashwin', 'Ronouk', 'Sumit' ]
