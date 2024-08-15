@@ -20,3 +20,20 @@ console.log(odd_arr)        // output - [ 5, 1, 3 ]
 // To find sum of arr
 let sum = arr.reduce((acc, curr) => acc + curr, 0)
 console.log(sum)           // output - 17
+
+// To find max number of arr
+let max = arr.reduce((acc, curr) => {
+    if(curr > acc){
+        acc = curr
+    }
+    return acc
+}, 0)
+console.log(max)           // output - 6
+
+// Some more examples
+const users = [
+    {firstName : "Ankit", lastName : "Rathi", age : 35},
+    {firstName : "Ashwin", lastName : "Shukla", age : 27},
+    {firstName : "Ronouk", lastName : "Joshi", age : 27},
+    {firstName : "Sumit", lastName : "Barole", age : 28},
+]
