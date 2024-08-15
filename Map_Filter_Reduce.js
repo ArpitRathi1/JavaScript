@@ -37,3 +37,20 @@ const users = [
     {firstName : "Ronouk", lastName : "Joshi", age : 27},
     {firstName : "Sumit", lastName : "Barole", age : 28},
 ]
+// To find list of full name of all the users
+
+let fullName = users.map((user) => user.firstName + " " + user.lastName)
+console.log(fullName)       // output - [ 'Ankit Rathi', 'Ashwin Shukla', 'Ronouk Joshi', 'Sumit Barole' ]
+
+// how many users have a perticular age - 
+
+let age = users.reduce((acc, curr) => {
+    if(acc[curr.age]){
+        acc[curr.age] = acc[curr.age] + 1
+    }
+    else{
+        acc[curr.age] = 1
+    }
+    return acc
+},{})
+console.log(age)         // output - { '27': 2, '28': 1, '35': 1 }
